@@ -1,0 +1,13 @@
+#ifndef OFS_ERRORS_HPP
+#define OFS_ERRORS_HPP
+
+enum class OFSErrorCodes {
+    SUCCESS = 0,
+    FILE_NOT_FOUND,
+    PERMISSION_DENIED,
+    INVALID_PATH,
+    INSUFFICIENT_SPACE,
+    UNKNOWN_ERROR
+};
+
+#endif
